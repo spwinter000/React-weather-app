@@ -1,0 +1,73 @@
+.Wrapper {
+   min-height: 100px;
+   /* display: flex; */
+   flex-direction: column;
+}
+
+.main_info{
+    display: inline;
+}
+
+.main_temp{
+    /* margin-top: 3px; */
+    /* margin-bottom: 5px; */
+    display: block;
+    position: relative;
+    font-size: 50px;
+    /* line-height: 0; */
+    font-weight: 500;
+}
+
+.description {
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+    opacity: .8;
+}
+
+
+img {
+    height: 125px;
+    width: 125px;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+}
+
+hr{
+    width: 350px;
+    opacity: .6;
+}
+
+table{
+    display: inline;
+    text-align: justify;
+}
+
+table tr td{
+    width: 175px;
+    
+}
+
+div table tr td:nth-child(2) {
+    text-align: right;
+    /* color: red; */
+}
+
+small {
+    color: red;
+}
+/* this code was pulled from
+https://www.w3schools.com/howto/howto_css_loader.asp */
+.Loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid rgb(90, 89, 89);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 10px auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

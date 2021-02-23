@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -104.98,
+        "lat": 39.74
+    },
+    "weather": [
+        {
+            "id": 711,
+            "main": "Smoke",
+            "description": "smoke",
+            "icon": "50d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 87.75,
+        "feels_like": 76.96,
+        "temp_min": 84.99,
+        "temp_max": 91,
+        "pressure": 1012,
+        "humidity": 6
+    },
+    "visibility": 9656,
+    "wind": {
+        "speed": 9.17,
+        "deg": 250
+    },
+    "clouds": {
+        "all": 20
+    },
+    "dt": 1599505900,
+    "sys": {
+        "type": 1,
+        "id": 3449,
+        "country": "US",
+        "sunrise": 1599482054,
+        "sunset": 1599528097
+    },
+    "timezone": -21600,
+    "id": 5419384,
+    "name": "Denver",
+    "cod": 200
+}

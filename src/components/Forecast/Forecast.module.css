@@ -1,0 +1,76 @@
+Input {
+    /* background-color: var(--search-box-bg, white); */
+    margin-bottom: 10px;
+    /* height: 20px;  */
+    /* color: var(--search-box-text); */
+    box-sizing: border-box;
+    border: none;
+}
+
+.textInput {
+    /* background-image: url("magnifying-glass.png") no repeat 10px; */
+    height: 30px;
+    border-radius: 22px;
+    font-size: 16px;
+    position: relative;
+    transition: none;
+    z-index: 2;
+    /* border: 0.5; */
+    /* position: relative; */
+    opacity: .80;
+    padding-inline-start: 15px;
+    padding-inline-end: 48px;
+    /* margin-bottom: 5px; */
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    /* border-radius: 3px; */
+    display: block;
+    margin: 5px auto;
+}
+.textInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+
+.search {
+  position: relative;
+/* margin-right: 0px; */
+/* margin-left: 100px; */
+  /* display: inline-flexbox; */
+  color: #aaa;
+  font-size: 16px;
+}
+
+i{ 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.Radio {
+    font-size: small;
+    margin-right: 2px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.Button {
+    display: block;
+    margin: 10px auto;
+    padding: .5rem;
+    font-size: 1em;
+    background: rgb(226, 32, 32);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+Button:hover {
+    opacity: 1;
+}

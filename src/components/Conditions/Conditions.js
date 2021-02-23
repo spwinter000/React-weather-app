@@ -57,11 +57,6 @@ const Conditions = ({ responseObj, error, loading }) => {
                     <div className={other_info}>
                         <table className={table}>
                             <tbody>
-                                {/* <tr>
-                                <td>High / Low</td>
-                                <td>{Math.round(responseObj.main.temp_max)}° / {Math.round(responseObj.main.temp_min)}°</td>
-                            </tr>
-                            <hr></hr> */}
                                 <tr>
                                     <td>Feels Like</td>
                                     <td>{Math.round(responseObj.main.feels_like)}°</td>
